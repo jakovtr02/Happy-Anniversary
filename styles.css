@@ -17,3 +17,24 @@ body { min-height: 100vh; min-height: 100dvh; }
 @keyframes forwardTurn { from { transform: rotateY(0); } to { transform: rotateY(-180deg); } }
 @keyframes backwardTurn { from { transform: rotateY(-180deg); } to { transform: rotateY(0); } }
 @media (prefers-reduced-motion: reduce) { :root { --duration: 150ms; } }
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400&display=swap');
+
+.flip-instruction {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 1px;
+
+    width: max-content;
+    max-width: 90%;
+    z-index: 1000;
+}
+
