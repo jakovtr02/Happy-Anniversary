@@ -1,6 +1,6 @@
 :root { --duration: 850ms; }
 * { box-sizing: border-box; }
-html, body { margin: 0; width: 100%; min-height: 100%; background: #fff; }
+html, body { margin: 0; width: 100%; min-height: 100%; background: #682523; }
 body { min-height: 100vh; min-height: 100dvh; }
 .stage { min-height: 100vh; min-height: 100dvh; display: grid; place-items: center; padding: clamp(10px, 3vw, 32px); perspective: 2600px; overflow: hidden; }
 .book { position: relative; width: min(100%, 1200px, calc((100dvh - 64px) * 16 / 9)); aspect-ratio: 16 / 9; background: #efe7db; cursor: pointer; user-select: none; -webkit-user-select: none; transform-style: preserve-3d; box-shadow: 0 14px 42px #00000020, 0 2px 8px #00000015; }
